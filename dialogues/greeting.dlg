@@ -1,0 +1,28 @@
+"Hello. How are you today?"
+-"I'm well, thanks. How are you doing?"
+    "I'm doing good"
+    "My name's " self.name ", what's yours?"
+    -"I'm " player.name
+        "Nice to meet you"
+        -"Would you be so kind to lend me that pencil there? I lost mine and I need to write some stuff"
+            "Sure, no problem"
+            return gotPencil
+        -"[leave]"
+    -"[leave]"
+-"Give me your pencil"
+    "Uh, this pencil belonged to my grandmother, I'd like to keep it"
+    -"[fight]"
+        return fight
+    -"I'll pay you ten dollars"
+        "No"
+        -"100 dollars"
+            "Uh..."
+            -"Last offer"
+                "Nope [leaves]"
+            -"1,000 dollars"
+                "Okay"
+                return boughtFor1000
+            -"[leave]"
+        -"[leave]"
+    -"[leave]"
+-"[leave]"

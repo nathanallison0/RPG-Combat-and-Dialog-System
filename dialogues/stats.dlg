@@ -1,0 +1,3 @@
+"Hello. My name is " self.name ". My stats are: "
+"Health: " self.health "/" self.maxhealth
+"Strength: " self.strength

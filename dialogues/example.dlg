@@ -1,0 +1,16 @@
+"You, human, are not permitted to enter the sacred wood."
+-"[fight]"
+    return fight
+-"[talk]"
+    -"I am searching for treasures. If you let me in, I'll give you 25 percent of my findings."
+        "You think I'd dishonor my people and accept a bribe?"
+        -"I have many allies in the Dual Spires. When they hear about this, they'll be angry."
+            "You don't scare me, begone now or I will summon the spirits of the wood to destroy you."
+            return fail
+        -"You have my word that I would never disturb any of the spirits in the wood."
+            "You humans are never to be trusted, begone."
+            return fail
+        -"Fifty percent?"
+            "Deal."
+            return success
+-"[exit]"
