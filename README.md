@@ -1,6 +1,6 @@
 ## RPG Combat and Dialog System
 
-A Python imitation of a Role-Playing Game battle system that allows for the easy creation of abilities for the player to use, \
+A Python imitation of a Role-Playing Game battle system that allows for the easy creation of abilities for the player to use, 
 plus a dialog system that uses formatted text files to simulate interactions with non-player characters.
 
 ## Features:
